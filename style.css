@@ -1,0 +1,100 @@
+/* Colors and fonts */
+body {
+	background-color: rgb(237, 241, 214);
+	color: black;
+	font-size: 17px;
+}
+
+h1{
+	color: rgb(96, 153, 102);
+	font-weight: 650;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+ul, p, a{
+	font-family: 'Pacifico', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(96, 153, 102);
+}
+a:hover{
+	color: rgb(157, 192, 139);
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+@media (max-width: 620px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(96, 153, 102, 0.2);
+	border-radius: 5px;
+	margin: 50px 0px;
+	text-align: center;
+}
+.card-white li {
+	color : rgb(96, 153, 102);
+	list-style: none;
+}
+.card-white p {
+	margin-top: 0px;
+}
+.text-align {
+	text-align: center;
+	color : rgb(96, 153, 102);
+}
+.img-circle {
+	border-radius: 50%;
+	text-align: center;
+}
+.btn-green {
+	background-color: rgb(96, 153, 102);
+	color: white;
+	padding: 15px 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+.btn-green:hover {
+	background-color: rgb(64, 81, 59);
+	color: white;
+}
+.list-inline {
+	list-style : none;
+	padding-left : 0px
+}
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+.list-inline i {
+	font-size: 45px;
+}
+
+
+/* Design adjustements using id */
+#introduction p {
+margin-bottom: 30px;
+}
